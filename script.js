@@ -1,7 +1,7 @@
 /* ============ TEXTES À MODIFIER ============ */
 const CONFIG = {
   name1: "Fadhel Judes", name2: "Sena Diane",
-  cardNames: "Fadhel & Diane", initials: "F & D",
+  cardNames: "Fafa & Nana", initials: "F & D",
   date: "02 · 01 · 2027", dateLong: "02 Janvier 2027",
   dateTarget: "2027-01-02T14:00:00",           // date et heure du compte à rebours
   openLabel: "Ouvrir notre invitation",
