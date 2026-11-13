@@ -15,7 +15,7 @@ const CONFIG = {
   ],
 
   galKicker: "Souvenirs", galTitle: "Notre galerie",
-  gallery: ["Photo/galerie1.jpg","Photo/galerie2.jpg","Photo/galerie3.jpg","Photo/galerie4.jpg","Photo/galerie5.jpg","Photo/galerie6.jpg"],
+  gallery: ["Photo/galerie1.jpeg","Photo/galerie2.jpeg","Photo/galerie3.jpeg","Photo/galerie4.jpeg","Photo/galerie5.jpeg","Photo/galerie6.jpeg"],
 
   progKicker: "La journée", progTitle: "Le programme",
   program: [
