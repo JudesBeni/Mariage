@@ -138,7 +138,6 @@ $("#rsvpForm").addEventListener("submit", e => {
   e.preventDefault();
   const f = new FormData(e.target);
   const msg = `Bonjour, c'est ${f.get("nom")}. ${f.get("presence")} (${f.get("nb")} personne(s)).` + (f.get("msg") ? `\n${f.get("msg")}` : "");
-  const url = CONFIG.rsvpWhatsApp
-    ? `[wa.me](https://wa.me/${CONFIG.rsvpWhatsApp}?text=${encodeURIComponent(msg)})`
+  const url = 'https://wa.me/${CONFIG.rsvpWhatsApp}?text=${encodeURIComponent(msg)})`
   location.href = url;
 });
