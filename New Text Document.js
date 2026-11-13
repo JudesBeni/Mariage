@@ -1,9 +1,9 @@
 /* ============ TEXTES À MODIFIER ============ */
 const CONFIG = {
   name1: "Fadhel Judes", name2: "Sena Diane",
-  cardNames: "Fadhel & Sena", initials: "F & S",
+  cardNames: "Fadhel & Diane", initials: "F & D",
   date: "02 · 01 · 2027", dateLong: "02 Janvier 2027",
-  dateTarget: "2027-01-02T15:00:00",           // date et heure du compte à rebours
+  dateTarget: "2027-01-02T14:00:00",           // date et heure du compte à rebours
   openLabel: "Ouvrir notre invitation",
   heroKicker: "Nous nous marions",
   welcome: "Avec une immense joie, nous vous invitons à célébrer le plus beau jour de notre vie.",
@@ -27,26 +27,25 @@ const CONFIG = {
   ],
 
   placeKicker: "Où nous retrouver", placeTitle: "Le lieu",
-  venue: "[nom de la salle]", address: "[adresse], [ville]",
+  venue: "[Salle des fetes: Palace Royale]", address: "[Zogbo,rue de la pharmacie Renouveau,en face du 10em arrondissement], [Cotonou]",
   placeNote: "Un parking est disponible sur place.",
   mapLabel: "Voir l'itinéraire",
-  mapUrl: "[google.com](https://www.google.com/maps/search/?api=1&query=)" + encodeURIComponent("[nom de la salle], [adresse], [ville]"),
+  mapUrl: "[google.com](https://maps.app.goo.gl/fm4Lb6TYVoQv8cZ78)" + encodeURIComponent("[Salle des fetes: Palace Royale], [Zogbo,rue de la pharmacie Renouveau,en face du 10em arrondissement], [cotonou]"),
 
   infoKicker: "Bon à savoir", infoTitle: "Informations pratiques",
   infos: [
     {k: "Tenue", t: "Élégante", d: "Nous vous invitons à porter des tons chauds : crème, terracotta, brun."},
-    {k: "Cadeaux", t: "Votre présence", d: "Votre présence est le plus beau des cadeaux. Une cagnotte est à votre disposition si vous le souhaitez."}
+    {k: "Cadeaux", t: "Votre présence", d: "Votre présence est le plus beau des cadeaux. Une enveloppe est à votre disposition si vous le souhaitez."}
   ],
 
   rsvpKicker: "Réponse", rsvpTitle: "Confirmez votre présence",
   rsvpText: "Merci de nous faire savoir si vous serez des nôtres.",
   rsvpButton: "Envoyer ma réponse",
-  rsvpWhatsApp: "",                              // ex : "2250102030405" (numéro international sans + ni espaces)
-  rsvpEmail: "votre-email@exemple.com",          // utilisé si WhatsApp est vide
-  deadline: "Date limite de réponse : 02 Décembre 2026",
+  rsvpWhatsApp: "2290196713264",                              // ex : "2250102030405" (numéro international sans + ni espaces)
+  deadline: "Date limite de réponse : 10 Décembre 2026",
 
   thanks: "Merci de faire partie de notre histoire",
-  hashtag: "#FadhelEtSena2027"
+  hashtag: "#FadhelJudesEtSenaDiane2027"
 };
 /* ============================================ */
 
@@ -142,6 +141,5 @@ $("#rsvpForm").addEventListener("submit", e => {
   const msg = `Bonjour, c'est ${f.get("nom")}. ${f.get("presence")} (${f.get("nb")} personne(s)).` + (f.get("msg") ? `\n${f.get("msg")}` : "");
   const url = CONFIG.rsvpWhatsApp
     ? `[wa.me](https://wa.me/${CONFIG.rsvpWhatsApp}?text=${encodeURIComponent(msg)})`
-    : `mailto:${CONFIG.rsvpEmail}?subject=${encodeURIComponent("Réponse mariage")}&body=${encodeURIComponent(msg)}`;
   location.href = url;
 });
