@@ -1,4 +1,3 @@
-/* ============ TEXTES À MODIFIER ============ */
 const CONFIG = {
   name1: "Fadhel Judes", name2: "Sena Diane",
   cardNames: "Fafa & Nana", initials: "F & D",
