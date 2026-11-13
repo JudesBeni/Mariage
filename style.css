@@ -33,7 +33,7 @@ h2{font-family:'Bodoni Moda',serif;font-weight:400;font-size:clamp(1.9rem,8vw,2.
 #site{opacity:0;transition:opacity 1.8s var(--ease)}
 #site.show{opacity:1}
 .hero{position:relative;min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--cream);overflow:hidden;background:var(--brown)}
-.hero-bg{position:absolute;inset:-5%;background:url(photos/accueil.jpg) center/cover;animation:zoom 22s ease-out forwards}
+.hero-bg{position:absolute;inset:-5%;background:url(Photo/accueil.jpg) center/cover;animation:zoom 22s ease-out forwards}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(59,36,24,.45),rgba(59,36,24,.7))}
 @keyframes zoom{from{transform:scale(1.12)}to{transform:scale(1)}}
 .hero-in{position:relative;z-index:2;padding:2rem 1.2rem}
