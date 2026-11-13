@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fadhel & Sena — 02 janvier 2027</title>
+<meta name="theme-color" content="#3b2418">
+<meta name="description" content="Vous êtes invités au mariage de Fadhel Judes & Sena Diane.">
+<link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
+<link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
+<link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500&family=Cinzel:wght@400;500&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap)" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+<!-- OUVERTURE -->
+<div id="intro">
+  <div class="env-wrap">
+    <div class="env">
+      <div class="card"><span class="script" data-bind="cardNames"></span><small class="cinzel" data-bind="date"></small></div>
+      <div class="flap"></div>
+      <div class="front"></div>
+      <div class="seal"><span data-bind="initials"></span></div>
+    </div>
+  </div>
+  <button id="openBtn" class="btn" data-bind="openLabel"></button>
+</div>
+
+<main id="site" aria-hidden="true">
+
+  <!-- 1. ACCUEIL -->
+  <section id="accueil" class="hero">
+    <div class="hero-bg" role="img" aria-label="Photo des mariés"></div>
+    <div class="hero-in">
+      <p class="cinzel" data-bind="heroKicker"></p>
+      <h1 class="script names"><span data-bind="name1"></span><em>&</em><span data-bind="name2"></span></h1>
+      <p class="welcome" data-bind="welcome"></p>
+      <p class="cinzel date" data-bind="dateLong"></p>
+      <div class="count" id="count" aria-live="off">
+        <div><b id="cd">0</b><span>jours</span></div>
+        <div><b id="ch">0</b><span>heures</span></div>
+        <div><b id="cm">0</b><span>minutes</span></div>
+        <div><b id="cs">0</b><span>secondes</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. HISTOIRE -->
+  <section id="histoire" class="sec">
+    <p class="cinzel kick reveal" data-bind="storyKicker"></p>
+    <h2 class="split" data-bind="storyTitle"></h2>
+    <div class="timeline" id="timeline"><div class="line"><i id="lineFill"></i></div></div>
+  </section>
+
+  <!-- 3. GALERIE -->
+  <section id="galerie" class="sec alt">
+    <p class="cinzel kick reveal" data-bind="galKicker"></p>
+    <h2 class="split" data-bind="galTitle"></h2>
+    <div class="gallery" id="gallery"></div>
+  </section>
+
+  <!-- 4. PROGRAMME -->
+  <section id="programme" class="sec">
+    <p class="cinzel kick reveal" data-bind="progKicker"></p>
+    <h2 class="split" data-bind="progTitle"></h2>
+    <ul class="program" id="program"></ul>
+  </section>
+
+  <!-- 5. LIEU -->
+  <section id="lieu" class="sec alt">
+    <p class="cinzel kick reveal" data-bind="placeKicker"></p>
+    <h2 class="split" data-bind="placeTitle"></h2>
+    <div class="reveal place">
+      <p class="venue" data-bind="venue"></p>
+      <p data-bind="address"></p>
+      <p data-bind="placeNote"></p>
+      <a class="btn" id="mapBtn" target="_blank" rel="noopener" data-bind="mapLabel"></a>
+    </div>
+  </section>
+
+  <!-- 6. INFOS -->
+  <section id="infos" class="sec">
+    <p class="cinzel kick reveal" data-bind="infoKicker"></p>
+    <h2 class="split" data-bind="infoTitle"></h2>
+    <div class="infos" id="infos"></div>
+  </section>
+
+  <!-- 7. RSVP -->
+  <section id="rsvp" class="sec alt">
+    <p class="cinzel kick reveal" data-bind="rsvpKicker"></p>
+    <h2 class="split" data-bind="rsvpTitle"></h2>
+    <p class="reveal" data-bind="rsvpText"></p>
+    <form id="rsvpForm" class="reveal form">
+      <input name="nom" placeholder="Votre nom et prénom" required autocomplete="name">
+      <select name="presence">
+        <option>Je serai présent(e)</option>
+        <option>Je ne pourrai pas venir</option>
+      </select>
+      <input name="nb" type="number" min="1" max="10" value="1" aria-label="Nombre de personnes">
+      <textarea name="msg" rows="3" placeholder="Un petit mot pour les mariés (facultatif)"></textarea>
+      <button class="btn" type="submit" data-bind="rsvpButton"></button>
+    </form>
+    <p class="cinzel deadline reveal" data-bind="deadline"></p>
+  </section>
+
+  <!-- 8. PIED DE PAGE -->
+  <footer>
+    <p class="script reveal" data-bind="thanks"></p>
+    <div class="monogram reveal" data-bind="initials"></div>
+    <p class="cinzel reveal" data-bind="hashtag"></p>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
