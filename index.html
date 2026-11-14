@@ -111,6 +111,33 @@
   </footer>
 </main>
 
+
 <script src="script.js"></script>
+
+<script>
+  // Musique de fond du mariage
+  const musique = document.getElementById("musique");
+  const boutonOuverture = document.getElementById("openBtn");
+
+  musique.volume = 0.5;
+
+  // Démarrer la musique au clic sur l'invitation
+  boutonOuverture.addEventListener("click", function () {
+    musique.play()
+      .then(() => {
+        console.log("Musique démarrée avec succès !");
+      })
+      .catch(erreur => {
+        console.error("Erreur de lecture audio :", erreur);
+      });
+  });
+
+  // Afficher une erreur si le MP3 ne se charge pas
+  musique.addEventListener("error", function () {
+    console.error("Fichier MP3 introuvable ou illisible :", musique.currentSrc);
+  });
+</script>
+
 </body>
 </html>
+
