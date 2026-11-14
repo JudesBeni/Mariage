@@ -151,6 +151,7 @@ if (!reduce) {
 
 // Ouverture de l'enveloppe
 $("#openBtn").addEventListener("click", () => {
+document.getElementById("musique").play().catch(err => console.error("Erreur audio :", err));
   const wait = reduce ? 0 : 1;
   $("#openBtn").classList.add("hide");
   $(".env").classList.add("open");
