@@ -11,8 +11,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500&family=Cinzel:wght@400;500&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
+  <audio id="musique" src="./musique/ed.mp3" loop></audio>
+
+<script>
+document.getElementById("openBtn").addEventListener("click", function() {
+  document.getElementById("musique").play()
+    .catch(error => alert("Erreur audio : " + error.message));
+});
+</script>
 <body class="locked">
-  <audio id="musique" src="./musique/ed.mp3" loop preload="auto"></audio>
 <!-- OUVERTURE -->
 <div id="intro">
   <div class="env-wrap">
