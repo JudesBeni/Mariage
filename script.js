@@ -60,7 +60,7 @@ plus que les premières. » — Job 42:12.`
   ],
 
   placeKicker: "Où nous retrouver", placeTitle: "Messe : Eglise catholique Marie-Auxiliatrice menontin",
-  venue: "Messe : Eglise catholique Marie-Auxiliatrice menontin -- Reception : Salle des fetes Palace Royale", address: "Zogbo,rue de la pharmacie Renouveau,en face du 10em arrondissement, Cotonou",
+  venue: "Reception : Salle des fetes Palace Royale", address: "Zogbo,rue de la pharmacie Renouveau,en face du 10em arrondissement, Cotonou",
   placeNote: "Un parking est disponible sur place.",
   infoKicker: "Bon à savoir", infoTitle: "Informations pratiques",
   infos: [
