@@ -59,13 +59,12 @@ plus que les premières. » — Job 42:12.`
     {h: "18h00", t: "Dîner et soirée", d: "Repas, discours, animation d'orquestre et danse"}
   ],
 
-  placeKicker: "Où nous retrouver", placeTitle: "Lieux de deroulement",
-  placeNote: "Messe : Eglise catholique Marie-Auxiliatrice menontin",
-  venue: "Reception : Salle des fetes: Palace Royale", address: "Zogbo,rue de la pharmacie Renouveau,en face du 10em arrondissement, Cotonou",
+  placeKicker: "Où nous retrouver", placeTitle: "Messe : Eglise catholique Marie-Auxiliatrice menontin",
+  venue: "Reception : Salle des fetes Palace Royale", address: "Zogbo,rue de la pharmacie Renouveau,en face du 10em arrondissement, Cotonou",
   placeNote: "Un parking est disponible sur place.",
   infoKicker: "Bon à savoir", infoTitle: "Informations pratiques",
   infos: [
-    {k: "Tenue", t: "Élégante", d: "Nous vous invitons à porter des tons chauds : crème, terracotta, brun."},
+    {k: "Tenue", t: " Chic et Élégante", d: "Theme: crème, marron."},
     {k: "Cadeaux", t: "Votre présence", d: "Votre présence est le plus beau des cadeaux. Une enveloppe est à votre disposition si vous le souhaitez."}
   ],
 
