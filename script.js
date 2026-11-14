@@ -65,7 +65,7 @@ plus que les premières. » — Job 42:12.`
   infoKicker: "Bon à savoir", infoTitle: "Informations pratiques",
   infos: [
     {k: "Tenue", t: " Chic et Élégante", d: "Theme: crème, marron."},
-    {k: "Cadeaux", d: " Une enveloppe est à votre discretion."}
+    {k: "Cadeaux",t: "Nous preferions une contribution financière", d: " Une enveloppe est à votre discretion."}
   ],
 
   rsvpKicker: "Réponse", rsvpTitle: "Confirmez votre présence",
