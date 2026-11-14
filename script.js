@@ -63,7 +63,7 @@ plus que les premières. » — Job 42:12.`
   venue: "Salle des fetes: Palace Royale", address: "Zogbo,rue de la pharmacie Renouveau,en face du 10em arrondissement, Cotonou",
   placeNote: "Un parking est disponible sur place.",
   mapLabel: "Voir l'itinéraire",
-  mapUrl: "[google.com](https://maps.app.goo.gl/fm4Lb6TYVoQv8cZ78)" + encodeURIComponent("[Salle des fetes: Palace Royale], [Zogbo,rue de la pharmacie Renouveau,en face du 10em arrondissement], [cotonou]"),
+  mapUrl: "https://maps.app.goo.gl/fm4Lb6TYVoQv8cZ78)" + encodeURIComponent("Salle des fetes: Palace Royale, [Zogbo,rue de la pharmacie Renouveau,en face du 10em arrondissement], [cotonou]"),
   infoKicker: "Bon à savoir", infoTitle: "Informations pratiques",
   infos: [
     {k: "Tenue", t: "Élégante", d: "Nous vous invitons à porter des tons chauds : crème, terracotta, brun."},
