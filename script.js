@@ -9,9 +9,13 @@ const CONFIG = {
 
   storyKicker: "Depuis le début", storyTitle: "Notre histoire",
   story: [
-    {when: "Le commencement", title: "La rencontre", text: "Racontez ici votre première rencontre : le lieu, le moment, ce qui vous a marqués."},
-    {when: "Le début d'une belle aventure", title: "Le premier rendez-vous", text: "Racontez ici votre premier rendez-vous et les souvenirs qui vous font sourire."},
-    {when: "Le plus beau « oui »", title: "La demande en mariage", text: "Racontez ici la demande : l'endroit, l'émotion et la réponse."}
+    {when: "Le commencement", title: "La rencontre", text: "Nous étions venus à la rencontre de Dieu, sans savoir qu’Il avait préparé pour nous la plus belle des rencontres. Ce jour-là, nos chemins se sont croisés, nos cœurs se sont reconnus, et sous Son regard, une merveilleuse histoire d’amour a commencé.
+« Il fait toute chose belle en son temps. » — Ecclésiaste 3:11
+Nous cherchions Sa présence, et dans Son amour, Il nous a conduits l’un vers l’autre. Ce qui semblait être une simple rencontre est devenu le début de notre plus belle histoire.
+"},
+    {when: "Notre amour, au-delà des frontières", title: "Le passport de l'amour", text: "Depuis plus d’une décennie, notre amour voyage à travers les frontières et défie les distances. Du Bénin à la France, en passant par le Ghana, chaque étape a écrit une page de notre histoire. Et c’est finalement au Canada que nous avons posé nos valises, pour continuer à écrire, main dans la main, les plus beaux chapitres de notre vie à deux."},
+    {when: "La fidélité de Dieu, notre plus belle bénédiction", title: "Notre mariage devant Dieu", text: "Après tant de chemins parcourus, la bonté de Dieu a transformé notre attente en bénédictions, et nous croyons que le plus beau reste encore à venir.
+« L’Éternel bénit les dernières années de Job plus que les premières. » — Job 42:12."}
   ],
 
   galKicker: "Souvenirs", galTitle: "Notre galerie",
@@ -19,18 +23,17 @@ const CONFIG = {
 
   progKicker: "La journée", progTitle: "Le programme",
   program: [
-    {h: "14h00", t: "Accueil des invités", d: "Installation et rafraîchissements"},
-    {h: "15h00", t: "Cérémonie", d: "Échange des vœux"},
+    {h: "14h00", t: "Accueil des invités", d: "Accueil et installation à l’Église Marie-Auxiliatrice de Menontin"},
+    {h: "14h30", t: "Cérémonie", d: "Messe de mariage"},
     {h: "17h00", t: "Cocktail", d: "Photos et moments de partage"},
-    {h: "19h00", t: "Dîner et soirée", d: "Repas, discours et danse"}
+    {h: "17h30", t: "Arrivée des mariés", d: "Entrée magestieuse des mariés"},
+    {h: "18h00", t: "Dîner et soirée", d: "Repas, discours, animation d'orquestre et danse"}
   ],
 
   placeKicker: "Où nous retrouver", placeTitle: "Le lieu",
-  venue: "[Salle des fetes: Palace Royale]", address: "[Zogbo,rue de la pharmacie Renouveau,en face du 10em arrondissement], [Cotonou]",
+  venue: "Salle des fetes: Palace Royale", address: "Zogbo,rue de la pharmacie Renouveau,en face du 10em arrondissement, Cotonou",
   placeNote: "Un parking est disponible sur place.",
-  mapLabel: "Voir l'itinéraire",
-  mapUrl: "[google.com](https://maps.app.goo.gl/fm4Lb6TYVoQv8cZ78)" + encodeURIComponent("[Salle des fetes: Palace Royale], [Zogbo,rue de la pharmacie Renouveau,en face du 10em arrondissement], [cotonou]"),
-
+ 
   infoKicker: "Bon à savoir", infoTitle: "Informations pratiques",
   infos: [
     {k: "Tenue", t: "Élégante", d: "Nous vous invitons à porter des tons chauds : crème, terracotta, brun."},
