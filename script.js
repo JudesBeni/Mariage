@@ -148,6 +148,14 @@ if (!reduce) {
   addEventListener("resize", onScroll);
   onScroll();
 } else { fill.style.transform = "none"; }
+const musique = document.getElementById("musique");
+
+  if (musique) {
+    musique.volume = 0.5;
+    musique.play()
+      .then(() => console.log("Musique démarrée"))
+      .catch(err => console.error("Erreur musique :", err));
+  }
 
 // Ouverture de l'enveloppe
 $("#openBtn").addEventListener("click", () => {
