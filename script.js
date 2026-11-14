@@ -60,7 +60,7 @@ plus que les premières. » — Job 42:12.`
   ],
 
   placeKicker: "Où nous retrouver", placeTitle: "Messe : Eglise catholique Marie-Auxiliatrice menontin",
-  venue: "Reception : Salle des fetes Palace Royale", address: "Zogbo,rue de la pharmacie Renouveau,en face du 10em arrondissement, Cotonou",
+  venue: "Messe : Eglise catholique Marie-Auxiliatrice menontin -- Reception : Salle des fetes Palace Royale", address: "Zogbo,rue de la pharmacie Renouveau,en face du 10em arrondissement, Cotonou",
   placeNote: "Un parking est disponible sur place.",
   infoKicker: "Bon à savoir", infoTitle: "Informations pratiques",
   infos: [
@@ -71,7 +71,7 @@ plus que les premières. » — Job 42:12.`
   rsvpKicker: "Réponse", rsvpTitle: "Confirmez votre présence",
   rsvpText: "Merci de nous faire savoir si vous serez des nôtres.",
   rsvpButton: "Envoyer ma réponse",
-  rsvpWhatsApp: "2290196713264",                              // ex : "2250102030405" (numéro international sans + ni espaces)
+  rsvpWhatsApp: "2290196713264",                              //  (numéro international sans + ni espaces)
   deadline: "Date limite de réponse : 10 Décembre 2026",
 
   thanks: "Merci de faire partie de notre histoire",
